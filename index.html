@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery Lab1</title>
+</head>
+<body>
+  <div id="container1">
+        <div id="container2">
+              <h2 id="headercolor">Table Finder</h2>
+              <p id="paragraphcolor">Pick your table now</p>
+        </div>
+        <div id="container3">
+          <div id="firstrow">
+            <div class="row available" id="circle11">1</div>
+            <div class="row available" id="circle12">2</div>
+            <div class="row reserved" id="circle13">3</div>
+          </div>
+          <div =id="secondrow">
+            <div class="row reserved" id="circle21">4</div>
+            <div class="row available" id="circle22">5</div>
+            <div class="row reserved" id="circle23">6</div>
+          </div>
+          <div id="thirdrow">
+            <div class="row available" id="circle31">7</div>
+            <div class="row reserved" id="circle32">8</div>
+            <div class="row reserved" id="circle33">9</div>
+          </div>
+       </div>
+  </div>
+  <form id="unit1">
+    <h4>New Reservation</h4>
+    <span class="close">&times;</span>
+    <label for="tablenum">Table Number:<p class="number-of-table"></p></label>
+    <span id="spanid"></span>
+    <p><input id="custname" type="text" maxlength="70" placeholder="Name"></p>
+    <p><input id="custphone" type="text" maxlength="15" placeholder="Phone" ></p>
+    <p><input id="howmany" type="text" maxlength="3" placeholder="No-of-guests"></p>
+    <button id="savebutton" type="button">Save</button>
+  </form>
+
+<script src="jQuery-3.3.1.js" ></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:700');
+
+body{
+  background-color: #ccc;
+  font-family: 'Roboto Mono', monospace;
+
+}
+#headercolor{
+  color:#E34E45;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-weight: 700;
+
+}
+#paragraphcolor{
+  color:black;
+  font-size: 18px;
+
+}
+#container3{
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 600px;
+  margin: auto;
+
+}
+.row{
+  width: 100px;
+	height: 100px;
+	background: #CCC;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  margin-bottom: 15px;
+}
+#container2{
+  margin: auto;
+  text-align: center;
+}
+.reserved{
+  background:#ADAAAA;
+  cursor: not-allowed;
+}
+.available{
+  background: #EEE;
+  cursor: zoom-in;
+}
+.available:hover{
+  background-color:yellow;
+}
+.close{
+  color: #aaaaaa;
+  float:right;
+  font-size:25px;
+  font-weight:bold;
+  margin: 0,auto;
+}
+.close:hover,
+.close:focus{
+  color:#000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#unit1{
+  text-align: left;
+  background-color: white;
+  width: 550px;
+  height: 326px;
+  margin: 0 auto;
+  position: absolute;
+  top:160px;
+  right: 394px;
+  z-index: 1;
+  display: none;
+}
+
+h4{
+  color: red;
+
+}
+#custname{
+  border: none;
+  margin-left: 5px;
+  border-bottom:1px solid black;
+}
+#custphone{
+  border: none;
+  margin-left: 5px;
+  border-bottom:1px solid black;
+}
+#howmany{
+  border: none;
+  margin-left: 5px;
+  border-bottom:1px solid black;
+}
+#savebutton{
+  color: white;
+  margin-left: 5px;
+  width:350px;
+  height:29px;
+  background-color: #008000;
+}
+.hoverData{
+  display: none;
+}
+.reserved:hover .hoverData{
+  display: block;
+}
